@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/psymi/static/css/main.61314dae.css",
+    "main.js": "/psymi/static/js/main.c04c5f3a.js",
+    "index.html": "/psymi/index.html",
+    "main.61314dae.css.map": "/psymi/static/css/main.61314dae.css.map",
+    "main.c04c5f3a.js.map": "/psymi/static/js/main.c04c5f3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61314dae.css",
+    "static/js/main.c04c5f3a.js"
+  ]
+}
