@@ -17,7 +17,7 @@ const UserSmallIterface = () => {
       <UserInfoCont>
         <Hello>Привіт,</Hello>
         <UserName>Анонім</UserName>
-        <Link to={`/`}>
+        <Link to={`/profile`}>
           Мій профіль
           <SvgSelector id="arrow" />
         </Link>

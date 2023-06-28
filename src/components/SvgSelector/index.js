@@ -1,1 +1,1 @@
-export {default} from './SvgSelector'
+export { default } from './SvgSelector';

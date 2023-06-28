@@ -15,7 +15,8 @@ export const AsideCont = styled.aside`
 
 export const Underline = styled.div`
   width: 100%;
-  height: 1px;
+  height: 2px;
+  margin-bottom: 20px;
   background: radial-gradient(
     1522500.01% 49.71% at 49.71% -0%,
     #d9d9d9 0%,
