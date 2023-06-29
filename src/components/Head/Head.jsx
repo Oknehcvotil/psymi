@@ -5,7 +5,7 @@ const Head = () => {
   return (
     <header>
       <HeadContainer>
-        <Link to={`/about`}>
+        <Link to={`/ `}>
           <SvgSelector id="logo" />
         </Link>
       </HeadContainer>
