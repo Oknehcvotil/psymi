@@ -1,5 +1,7 @@
+import TitleComingSoon from "components/TitleComingSoon";
+
 const TestsPage = () => {
-  return <h1>Coming Soon</h1>;
+  return <TitleComingSoon />;
 };
 
 export default TestsPage;

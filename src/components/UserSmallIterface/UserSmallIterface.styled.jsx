@@ -7,6 +7,22 @@ export const Container = styled.div`
   max-width: 186px;
   width: 100%;
   min-height: 67px;
+  position: relative;
+  margin-bottom: 48px;
+
+  ::after {
+    content: '';
+    position: absolute;
+    bottom: -28px;
+    left: 0;
+    width: 206px;
+    height: 2px;
+    background: radial-gradient(
+      1522500.01% 49.71% at 49.71% -0%,
+      #d9d9d9 0%,
+      rgba(217, 217, 217, 0) 100%
+    );
+  }
 `;
 
 export const UserPhotoCont = styled.div`
@@ -15,7 +31,6 @@ export const UserPhotoCont = styled.div`
   justify-content: center;
   width: 67px;
   height: 67px;
-  margin-bottom: 28px;
   border-radius: 9px;
   background: linear-gradient(135deg, #347aec 0%, #6764e7 100%);
 `;

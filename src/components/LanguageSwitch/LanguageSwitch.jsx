@@ -8,8 +8,6 @@ const LanguageSwitch = () => {
     setLanguage(selectedLanguage);
   };
 
-  console.log(language);
-
   return (
     <LanguageCont>
       <UaBtn

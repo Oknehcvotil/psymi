@@ -1,5 +1,7 @@
+import TitleComingSoon from 'components/TitleComingSoon';
+
 const UserPage = () => {
-  return <h1>Coming Soon</h1>;
+  return <TitleComingSoon />;
 };
 
 export default UserPage;
