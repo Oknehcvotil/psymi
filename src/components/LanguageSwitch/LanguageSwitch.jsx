@@ -1,11 +1,14 @@
 import { EnBtn, LanguageCont, UaBtn } from './LanguageSwitch.styled';
-import { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { selectLanguage } from 'redux/languageSlice/selector';
+import { setLanguage } from 'redux/languageSlice/languageSlice';
 
 const LanguageSwitch = () => {
-  const [language, setLanguage] = useState('ua');
+  const language = useSelector(selectLanguage);
+  const dispatch = useDispatch();
 
   const handleLanguageChange = selectedLanguage => {
-    setLanguage(selectedLanguage);
+    dispatch(setLanguage(selectedLanguage));
   };
 
   return (

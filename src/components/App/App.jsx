@@ -5,15 +5,18 @@ import TestsPage from 'pages/TestsPage';
 import ArticlesPage from 'pages/ArticlesPage';
 import UserPage from 'pages/UserPage/UserPage';
 
+
 const App = () => {
+
   return (
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index  element={<AboutPage />} />
+          <Route index element={<AboutPage />} />
           <Route path="tests" element={<TestsPage />} />
           <Route path="articles" element={<ArticlesPage />} />
           <Route path="profile" element={<UserPage />} />
+          <Route path="*" element={<AboutPage />} />
         </Route>
       </Routes>
     </>
