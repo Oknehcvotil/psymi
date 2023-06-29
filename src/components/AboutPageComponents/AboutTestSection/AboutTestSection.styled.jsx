@@ -7,8 +7,7 @@ export const AboutTestsCont = styled.section`
 export const TitleAbout = styled.h1`
   color: #262626;
   font-size: 22px;
-  font-family: Unbounded;
-  font-style: normal;
+  font-family: 'Unbounded', cursive;
   font-weight: 400;
   line-height: normal;
   margin-bottom: 20px;
@@ -35,8 +34,7 @@ export const TestItem = styled.li`
   .test-item-text {
     color: #fff;
     font-size: 12px;
-    font-family: Unbounded;
-    font-style: normal;
+    font-family: 'Unbounded', cursive;
     font-weight: 400;
     line-height: 130%;
     width: 149px;

@@ -9,8 +9,7 @@ export const Button = styled(Link)`
   background: #347aec;
   color: #fff;
   font-size: 18px;
-  font-family: Unbounded;
-  font-style: normal;
+  font-family: 'Unbounded', cursive;
   font-weight: 400;
   line-height: normal;
 

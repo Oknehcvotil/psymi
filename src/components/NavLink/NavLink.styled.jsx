@@ -8,8 +8,7 @@ export const Link = styled(NavLink)`
   align-items: center;
   color: #262626;
   font-size: 16px;
-  font-family: Montserrat;
-  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
 
   .icon-cont {
     background-color: #f2f5f8;

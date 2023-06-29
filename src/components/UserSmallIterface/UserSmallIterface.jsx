@@ -1,7 +1,7 @@
 import SvgSelector from 'components/SvgSelector';
 import {
   Container,
-  Hello,
+  Greetings,
   Link,
   UserInfoCont,
   UserName,
@@ -15,7 +15,7 @@ const UserSmallIterface = () => {
         <SvgSelector id="userDefault" />
       </UserPhotoCont>
       <UserInfoCont>
-        <Hello>Привіт,</Hello>
+        <Greetings>Привіт,</Greetings>
         <UserName>Анонім</UserName>
         <Link to={`/profile`}>
           Мій профіль

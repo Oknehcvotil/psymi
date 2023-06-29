@@ -11,12 +11,13 @@ export const TextCont = styled.div`
   top: 0;
   left: 0;
   display: inline-block;
-  max-width: 574px;
+  max-width: 570px;
   width: 100%;
   min-height: 134px;
   border-radius: 15px;
   background-color: #f2f5f8;
   padding: 19px 31px;
+  font-family: 'Montserrat', sans-serif;
 
   ::before {
     content: '';
@@ -32,9 +33,6 @@ export const TextCont = styled.div`
   .paragrath {
     color: rgba(38, 38, 38, 1);
     font-size: 16px;
-    font-family: Unbounded;
-    font-style: normal;
-    font-weight: 500;
     line-height: 130%;
 
     :not(:last-child) {
@@ -46,9 +44,9 @@ export const TextCont = styled.div`
 export const RobotTitle = styled.h2`
   color: #4485ed;
   font-size: 16px;
-  font-family: Unbounded;
-  font-style: normal;
+  font-family: 'Unbounded', cursive;
   font-weight: 500;
+  font-style: normal;
   line-height: 130%;
   margin-bottom: 6px;
 `;

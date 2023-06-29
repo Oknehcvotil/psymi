@@ -1,7 +1,9 @@
 body {
+  font-weight: 500;
   background-color: #f2f5f8;
   margin: 0;
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 ul {

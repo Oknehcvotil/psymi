@@ -40,17 +40,17 @@ export const UserInfoCont = styled.div`
   flex-direction: column;
 `;
 
-export const Hello = styled.p`
+export const Greetings = styled.p`
+  font-family: 'Montserrat', sans-serif;
   color: #5e5e5e;
   font-size: 10px;
-  font-family: Montserrat;
-  font-weight: 500;
 `;
 
 export const UserName = styled.h3`
   color: #262626;
   font-size: 16px;
-  font-family: Unbounded;
+  font-family: 'Unbounded', cursive;
+  font-weight: 400;
   margin-bottom: 6px;
 `;
 
@@ -65,6 +65,5 @@ export const Link = styled(BaseLink)`
   background-color: #347aec;
   color: #fff;
   font-size: 10px;
-  font-family: Montserrat;
-  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
 `;
