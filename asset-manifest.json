@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/psymi/static/css/main.02716c9e.css",
-    "main.js": "/psymi/static/js/main.f48b20d3.js",
+    "main.js": "/psymi/static/js/main.7eb6f576.js",
     "static/media/robot.png": "/psymi/static/media/robot.9bfe6a3ead1e705e95ff.png",
     "index.html": "/psymi/index.html",
     "main.02716c9e.css.map": "/psymi/static/css/main.02716c9e.css.map",
-    "main.f48b20d3.js.map": "/psymi/static/js/main.f48b20d3.js.map"
+    "main.7eb6f576.js.map": "/psymi/static/js/main.7eb6f576.js.map"
   },
   "entrypoints": [
     "static/css/main.02716c9e.css",
-    "static/js/main.f48b20d3.js"
+    "static/js/main.7eb6f576.js"
   ]
 }
